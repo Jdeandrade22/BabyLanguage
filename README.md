@@ -27,7 +27,7 @@ print(tokens)
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/BabyLanguage.git
+https://github.com/Jdeandrade22/BabyLanguage.git
 cd BabyLanguage
 ```
 
