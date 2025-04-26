@@ -1,8 +1,6 @@
-from func import tokenize
+import lexer
 
-Srcode = "((12+3*5)+5/4)"
-
-tokenResult = tokenize(Srcode)
-
-print(tokenResult)
-
+srcCode = "((12+3*5)+5/4)"
+tokSeq = lexer.tokenize(srcCode)
+for token in tokSeq:
+    print(token[1], token[0]) 
